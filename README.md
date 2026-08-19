@@ -4,7 +4,6 @@ This repository is the practical prototype for a master's thesis comparing **mon
 
 The project evaluates when moving from a monolith to microservices creates meaningful technical and business value. Both implementations provide the same core capabilities—catalog, cart, inventory, order, and payment—so their performance, failure behavior, operational effort, and estimated cost can be compared fairly.
 
-> Application source code is written in Java. GitHub may detect Kotlin because the build uses Gradle Kotlin DSL and the repository includes generated Gradle cache files.
 
 ## Research Scope
 
