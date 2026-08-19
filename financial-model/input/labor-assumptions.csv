@@ -1,0 +1,3 @@
+architecture,developer_hourly_rate,operations_hourly_rate,monthly_development_maintenance_hours,monthly_operations_hours,average_deployment_minutes,deployments_per_month,average_debugging_minutes_per_incident,incidents_per_month
+Monolith,50,50,20,5,10,4,20,2
+Microservices,50,50,25,12,6,10,35,3

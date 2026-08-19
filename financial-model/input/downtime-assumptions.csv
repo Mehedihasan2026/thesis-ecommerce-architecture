@@ -1,0 +1,3 @@
+architecture,estimated_revenue_per_hour,incidents_per_month,average_mttr_minutes,percentage_of_users_affected
+Monolith,500,2,20,1.0
+Microservices,500,3,12,0.4

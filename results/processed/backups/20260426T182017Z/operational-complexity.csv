@@ -1,0 +1,5 @@
+Scenario,Architecture,Components Changed,Services Redeployed,Deployment Time Seconds,Manual Steps Required,Rollback Complexity,Monitoring Complexity,Notes
+Payment logic change in monolith,Monolith,Payment module within single deployable,1,,,,,
+Payment logic change in microservices,Microservices,payment-service and any dependent contract updates,,,,,,
+Full system deployment in monolith,Monolith,Single application package,1,,,,,
+Full system deployment in microservices,Microservices,"catalog-service, cart-service, inventory-service, payment-service, order-service",5,,,,,

@@ -1,0 +1,3 @@
+architecture,compute_instance_count,compute_cost_per_instance_month,database_instance_count,database_cost_per_instance_month,storage_gb,storage_cost_per_gb_month,network_gb,network_cost_per_gb,monitoring_cost_month,backup_cost_month,other_tooling_cost_month
+Monolith,1,40,1,20,20,0.10,50,0.09,10,5,0
+Microservices,5,25,5,10,50,0.10,150,0.09,40,15,20

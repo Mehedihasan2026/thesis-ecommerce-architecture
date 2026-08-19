@@ -1,0 +1,215 @@
+cart-service-1  | 
+cart-service-1  |   .   ____          _            __ _ _
+cart-service-1  |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+cart-service-1  | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+cart-service-1  |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+cart-service-1  |   '  |____| .__|_| |_|_| |_\__, | / / / /
+cart-service-1  |  =========|_|==============|___/=/_/_/_/
+cart-service-1  | 
+cart-service-1  |  :: Spring Boot ::                (v3.5.7)
+cart-service-1  | 
+cart-service-1  | 2026-04-25T20:25:04.415Z  INFO 1 --- [cart-service] [           main] c.t.m.cart.CartServiceApplication        : Starting CartServiceApplication v0.0.1-SNAPSHOT using Java 17.0.18 with PID 1 (/app/app.jar started by root in /app)
+cart-service-1  | 2026-04-25T20:25:04.430Z  INFO 1 --- [cart-service] [           main] c.t.m.cart.CartServiceApplication        : No active profile set, falling back to 1 default profile: "default"
+cart-service-1  | 2026-04-25T20:25:07.790Z  INFO 1 --- [cart-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+cart-service-1  | 2026-04-25T20:25:07.961Z  INFO 1 --- [cart-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 138 ms. Found 1 JPA repository interface.
+cart-service-1       | 2026-04-25T20:25:09.635Z  INFO 1 --- [cart-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+cart-service-1       | 2026-04-25T20:25:09.671Z  INFO 1 --- [cart-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+cart-service-1       | 2026-04-25T20:25:09.672Z  INFO 1 --- [cart-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+cart-service-1       | 2026-04-25T20:25:09.748Z  INFO 1 --- [cart-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+cart-service-1       | 2026-04-25T20:25:09.751Z  INFO 1 --- [cart-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5110 ms
+cart-service-1       | 2026-04-25T20:25:10.907Z  INFO 1 --- [cart-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+cart-service-1       | 2026-04-25T20:25:11.052Z  INFO 1 --- [cart-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+cart-service-1       | 2026-04-25T20:25:11.158Z  INFO 1 --- [cart-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+cart-service-1       | 2026-04-25T20:25:11.833Z  INFO 1 --- [cart-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+cart-service-1       | 2026-04-25T20:25:11.882Z  INFO 1 --- [cart-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+cart-service-1       | 2026-04-25T20:25:12.166Z  INFO 1 --- [cart-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:cart-service-db user=SA
+cart-service-1       | 2026-04-25T20:25:12.169Z  INFO 1 --- [cart-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+cart-service-1       | 2026-04-25T20:25:12.297Z  INFO 1 --- [cart-service] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+cart-service-1       | 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+cart-service-1       | 	Database driver: undefined/unknown
+cart-service-1       | 	Database version: 2.3.232
+cart-service-1       | 	Autocommit mode: undefined/unknown
+order-service-1      | 
+order-service-1      |   .   ____          _            __ _ _
+order-service-1      |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+order-service-1      | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+order-service-1      |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+order-service-1      |   '  |____| .__|_| |_|_| |_\__, | / / / /
+order-service-1      |  =========|_|==============|___/=/_/_/_/
+order-service-1      | 
+order-service-1      |  :: Spring Boot ::                (v3.5.7)
+order-service-1      | 
+order-service-1      | 2026-04-25T20:25:04.817Z  INFO 1 --- [order-service] [           main] c.t.m.order.OrderServiceApplication      : Starting OrderServiceApplication v0.0.1-SNAPSHOT using Java 17.0.18 with PID 1 (/app/app.jar started by root in /app)
+order-service-1      | 2026-04-25T20:25:04.840Z  INFO 1 --- [order-service] [           main] c.t.m.order.OrderServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+order-service-1      | 2026-04-25T20:25:08.142Z  INFO 1 --- [order-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+order-service-1      | 2026-04-25T20:25:08.373Z  INFO 1 --- [order-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 188 ms. Found 1 JPA repository interface.
+order-service-1      | 2026-04-25T20:25:10.041Z  INFO 1 --- [order-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8089 (http)
+order-service-1      | 2026-04-25T20:25:10.070Z  INFO 1 --- [order-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+order-service-1      | 2026-04-25T20:25:10.070Z  INFO 1 --- [order-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+order-service-1      | 2026-04-25T20:25:10.136Z  INFO 1 --- [order-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+order-service-1      | 2026-04-25T20:25:10.141Z  INFO 1 --- [order-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5145 ms
+order-service-1      | 2026-04-25T20:25:11.116Z  INFO 1 --- [order-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+order-service-1      | 2026-04-25T20:25:11.338Z  INFO 1 --- [order-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+order-service-1      | 2026-04-25T20:25:11.398Z  INFO 1 --- [order-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+order-service-1      | 2026-04-25T20:25:11.941Z  INFO 1 --- [order-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+order-service-1      | 2026-04-25T20:25:11.986Z  INFO 1 --- [order-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+order-service-1      | 2026-04-25T20:25:12.298Z  INFO 1 --- [order-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:order-service-db user=SA
+order-service-1      | 2026-04-25T20:25:12.301Z  INFO 1 --- [order-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+order-service-1      | 2026-04-25T20:25:12.399Z  INFO 1 --- [order-service] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+order-service-1      | 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+order-service-1      | 	Database driver: undefined/unknown
+order-service-1      | 	Database version: 2.3.232
+order-service-1      | 	Autocommit mode: undefined/unknown
+order-service-1      | 	Isolation level: undefined/unknown
+order-service-1      | 	Minimum pool size: undefined/unknown
+order-service-1      | 	Maximum pool size: undefined/unknown
+order-service-1      | 2026-04-25T20:25:13.952Z  INFO 1 --- [order-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+order-service-1      | 2026-04-25T20:25:14.057Z  INFO 1 --- [order-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+order-service-1      | 2026-04-25T20:25:16.999Z  INFO 1 --- [order-service] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:order-service-db'
+order-service-1      | 2026-04-25T20:25:17.048Z  INFO 1 --- [order-service] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+order-service-1      | 2026-04-25T20:25:17.152Z  INFO 1 --- [order-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/'
+order-service-1      | 2026-04-25T20:25:17.176Z  INFO 1 --- [order-service] [           main] c.t.m.order.OrderServiceApplication      : Started OrderServiceApplication in 14.089 seconds (process running for 15.39)
+order-service-1      | 2026-04-25T20:25:19.490Z  INFO 1 --- [order-service] [nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+order-service-1      | 2026-04-25T20:25:19.490Z  INFO 1 --- [order-service] [nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+order-service-1      | 2026-04-25T20:25:19.492Z  INFO 1 --- [order-service] [nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+cart-service-1       | 	Isolation level: undefined/unknown
+cart-service-1       | 	Minimum pool size: undefined/unknown
+cart-service-1       | 	Maximum pool size: undefined/unknown
+cart-service-1       | 2026-04-25T20:25:13.735Z  INFO 1 --- [cart-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+cart-service-1       | 2026-04-25T20:25:13.826Z  INFO 1 --- [cart-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+cart-service-1       | 2026-04-25T20:25:17.169Z  INFO 1 --- [cart-service] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cart-service-db'
+cart-service-1       | 2026-04-25T20:25:17.204Z  INFO 1 --- [cart-service] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+cart-service-1       | 2026-04-25T20:25:17.313Z  INFO 1 --- [cart-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+cart-service-1       | 2026-04-25T20:25:17.355Z  INFO 1 --- [cart-service] [           main] c.t.m.cart.CartServiceApplication        : Started CartServiceApplication in 14.656 seconds (process running for 15.968)
+cart-service-1       | 2026-04-25T20:25:18.901Z  INFO 1 --- [cart-service] [nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+cart-service-1       | 2026-04-25T20:25:18.901Z  INFO 1 --- [cart-service] [nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+cart-service-1       | 2026-04-25T20:25:18.902Z  INFO 1 --- [cart-service] [nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+inventory-service-1  | 
+inventory-service-1  |   .   ____          _            __ _ _
+catalog-service-1    | 
+catalog-service-1    |   .   ____          _            __ _ _
+catalog-service-1    |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+catalog-service-1    | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+catalog-service-1    |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+catalog-service-1    |   '  |____| .__|_| |_|_| |_\__, | / / / /
+catalog-service-1    |  =========|_|==============|___/=/_/_/_/
+catalog-service-1    | 
+catalog-service-1    |  :: Spring Boot ::                (v3.5.7)
+catalog-service-1    | 
+catalog-service-1    | 2026-04-25T20:25:03.804Z  INFO 1 --- [catalog-service] [           main] c.t.m.catalog.CatalogServiceApplication  : Starting CatalogServiceApplication v0.0.1-SNAPSHOT using Java 17.0.18 with PID 1 (/app/app.jar started by root in /app)
+catalog-service-1    | 2026-04-25T20:25:03.820Z  INFO 1 --- [catalog-service] [           main] c.t.m.catalog.CatalogServiceApplication  : No active profile set, falling back to 1 default profile: "default"
+catalog-service-1    | 2026-04-25T20:25:07.274Z  INFO 1 --- [catalog-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+catalog-service-1    | 2026-04-25T20:25:07.421Z  INFO 1 --- [catalog-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 131 ms. Found 1 JPA repository interface.
+catalog-service-1    | 2026-04-25T20:25:09.111Z  INFO 1 --- [catalog-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+catalog-service-1    | 2026-04-25T20:25:09.150Z  INFO 1 --- [catalog-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+catalog-service-1    | 2026-04-25T20:25:09.151Z  INFO 1 --- [catalog-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+catalog-service-1    | 2026-04-25T20:25:09.261Z  INFO 1 --- [catalog-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+catalog-service-1    | 2026-04-25T20:25:09.262Z  INFO 1 --- [catalog-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5219 ms
+catalog-service-1    | 2026-04-25T20:25:09.978Z  INFO 1 --- [catalog-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+catalog-service-1    | 2026-04-25T20:25:10.060Z  INFO 1 --- [catalog-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+catalog-service-1    | 2026-04-25T20:25:10.106Z  INFO 1 --- [catalog-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+catalog-service-1    | 2026-04-25T20:25:10.782Z  INFO 1 --- [catalog-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+catalog-service-1    | 2026-04-25T20:25:10.866Z  INFO 1 --- [catalog-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+catalog-service-1    | 2026-04-25T20:25:11.279Z  INFO 1 --- [catalog-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:catalog-service-db user=SA
+catalog-service-1    | 2026-04-25T20:25:11.283Z  INFO 1 --- [catalog-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+catalog-service-1    | 2026-04-25T20:25:11.402Z  INFO 1 --- [catalog-service] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+catalog-service-1    | 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+catalog-service-1    | 	Database driver: undefined/unknown
+catalog-service-1    | 	Database version: 2.3.232
+catalog-service-1    | 	Autocommit mode: undefined/unknown
+catalog-service-1    | 	Isolation level: undefined/unknown
+catalog-service-1    | 	Minimum pool size: undefined/unknown
+catalog-service-1    | 	Maximum pool size: undefined/unknown
+catalog-service-1    | 2026-04-25T20:25:12.702Z  INFO 1 --- [catalog-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+catalog-service-1    | 2026-04-25T20:25:12.762Z  INFO 1 --- [catalog-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+catalog-service-1    | 2026-04-25T20:25:15.082Z  INFO 1 --- [catalog-service] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:catalog-service-db'
+catalog-service-1    | 2026-04-25T20:25:15.196Z  INFO 1 --- [catalog-service] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+catalog-service-1    | 2026-04-25T20:25:15.588Z  INFO 1 --- [catalog-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+catalog-service-1    | 2026-04-25T20:25:15.683Z  INFO 1 --- [catalog-service] [           main] c.t.m.catalog.CatalogServiceApplication  : Started CatalogServiceApplication in 13.495 seconds (process running for 14.604)
+catalog-service-1    | 2026-04-25T20:25:16.383Z  INFO 1 --- [catalog-service] [nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+catalog-service-1    | 2026-04-25T20:25:16.384Z  INFO 1 --- [catalog-service] [nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+catalog-service-1    | 2026-04-25T20:25:16.386Z  INFO 1 --- [catalog-service] [nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+payment-service-1    | 
+payment-service-1    |   .   ____          _            __ _ _
+payment-service-1    |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+payment-service-1    | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+payment-service-1    |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+payment-service-1    |   '  |____| .__|_| |_|_| |_\__, | / / / /
+payment-service-1    |  =========|_|==============|___/=/_/_/_/
+payment-service-1    | 
+payment-service-1    |  :: Spring Boot ::                (v3.5.7)
+payment-service-1    | 
+payment-service-1    | 2026-04-25T20:25:03.660Z  INFO 1 --- [payment-service] [           main] c.t.m.payment.PaymentServiceApplication  : Starting PaymentServiceApplication v0.0.1-SNAPSHOT using Java 17.0.18 with PID 1 (/app/app.jar started by root in /app)
+payment-service-1    | 2026-04-25T20:25:03.675Z  INFO 1 --- [payment-service] [           main] c.t.m.payment.PaymentServiceApplication  : No active profile set, falling back to 1 default profile: "default"
+payment-service-1    | 2026-04-25T20:25:07.052Z  INFO 1 --- [payment-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+payment-service-1    | 2026-04-25T20:25:07.191Z  INFO 1 --- [payment-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 115 ms. Found 1 JPA repository interface.
+payment-service-1    | 2026-04-25T20:25:08.389Z  INFO 1 --- [payment-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+payment-service-1    | 2026-04-25T20:25:08.415Z  INFO 1 --- [payment-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+payment-service-1    | 2026-04-25T20:25:08.416Z  INFO 1 --- [payment-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+payment-service-1    | 2026-04-25T20:25:08.484Z  INFO 1 --- [payment-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+payment-service-1    | 2026-04-25T20:25:08.487Z  INFO 1 --- [payment-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4540 ms
+payment-service-1    | 2026-04-25T20:25:09.600Z  INFO 1 --- [payment-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+payment-service-1    | 2026-04-25T20:25:09.735Z  INFO 1 --- [payment-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+inventory-service-1  |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+inventory-service-1  | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+inventory-service-1  |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+inventory-service-1  |   '  |____| .__|_| |_|_| |_\__, | / / / /
+inventory-service-1  |  =========|_|==============|___/=/_/_/_/
+inventory-service-1  | 
+inventory-service-1  |  :: Spring Boot ::                (v3.5.7)
+inventory-service-1  | 
+inventory-service-1  | 2026-04-25T20:25:03.327Z  INFO 1 --- [inventory-service] [           main] c.t.m.i.InventoryServiceApplication      : Starting InventoryServiceApplication v0.0.1-SNAPSHOT using Java 17.0.18 with PID 1 (/app/app.jar started by root in /app)
+inventory-service-1  | 2026-04-25T20:25:03.336Z  INFO 1 --- [inventory-service] [           main] c.t.m.i.InventoryServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+inventory-service-1  | 2026-04-25T20:25:06.466Z  INFO 1 --- [inventory-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+inventory-service-1  | 2026-04-25T20:25:06.750Z  INFO 1 --- [inventory-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 247 ms. Found 1 JPA repository interface.
+inventory-service-1  | 2026-04-25T20:25:07.920Z  INFO 1 --- [inventory-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8087 (http)
+inventory-service-1  | 2026-04-25T20:25:07.943Z  INFO 1 --- [inventory-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+inventory-service-1  | 2026-04-25T20:25:07.943Z  INFO 1 --- [inventory-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+inventory-service-1  | 2026-04-25T20:25:08.031Z  INFO 1 --- [inventory-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+inventory-service-1  | 2026-04-25T20:25:08.041Z  INFO 1 --- [inventory-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4535 ms
+inventory-service-1  | 2026-04-25T20:25:08.985Z  INFO 1 --- [inventory-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+inventory-service-1  | 2026-04-25T20:25:09.093Z  INFO 1 --- [inventory-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+inventory-service-1  | 2026-04-25T20:25:09.153Z  INFO 1 --- [inventory-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+inventory-service-1  | 2026-04-25T20:25:09.778Z  INFO 1 --- [inventory-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+inventory-service-1  | 2026-04-25T20:25:09.860Z  INFO 1 --- [inventory-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+inventory-service-1  | 2026-04-25T20:25:10.355Z  INFO 1 --- [inventory-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:inventory-service-db user=SA
+inventory-service-1  | 2026-04-25T20:25:10.358Z  INFO 1 --- [inventory-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+inventory-service-1  | 2026-04-25T20:25:10.469Z  INFO 1 --- [inventory-service] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+inventory-service-1  | 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+inventory-service-1  | 	Database driver: undefined/unknown
+inventory-service-1  | 	Database version: 2.3.232
+inventory-service-1  | 	Autocommit mode: undefined/unknown
+inventory-service-1  | 	Isolation level: undefined/unknown
+inventory-service-1  | 	Minimum pool size: undefined/unknown
+inventory-service-1  | 	Maximum pool size: undefined/unknown
+inventory-service-1  | 2026-04-25T20:25:12.020Z  INFO 1 --- [inventory-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+inventory-service-1  | 2026-04-25T20:25:12.094Z  INFO 1 --- [inventory-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+inventory-service-1  | 2026-04-25T20:25:14.325Z  INFO 1 --- [inventory-service] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:inventory-service-db'
+inventory-service-1  | 2026-04-25T20:25:14.480Z  INFO 1 --- [inventory-service] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+inventory-service-1  | 2026-04-25T20:25:14.738Z  INFO 1 --- [inventory-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8087 (http) with context path '/'
+inventory-service-1  | 2026-04-25T20:25:14.799Z  INFO 1 --- [inventory-service] [           main] c.t.m.i.InventoryServiceApplication      : Started InventoryServiceApplication in 12.866 seconds (process running for 13.779)
+inventory-service-1  | 2026-04-25T20:25:19.097Z  INFO 1 --- [inventory-service] [nio-8087-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+inventory-service-1  | 2026-04-25T20:25:19.098Z  INFO 1 --- [inventory-service] [nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+inventory-service-1  | 2026-04-25T20:25:19.100Z  INFO 1 --- [inventory-service] [nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+payment-service-1    | 2026-04-25T20:25:09.799Z  INFO 1 --- [payment-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+payment-service-1    | 2026-04-25T20:25:10.695Z  INFO 1 --- [payment-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+payment-service-1    | 2026-04-25T20:25:10.773Z  INFO 1 --- [payment-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+payment-service-1    | 2026-04-25T20:25:11.206Z  INFO 1 --- [payment-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:payment-service-db user=SA
+payment-service-1    | 2026-04-25T20:25:11.222Z  INFO 1 --- [payment-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+payment-service-1    | 2026-04-25T20:25:11.384Z  INFO 1 --- [payment-service] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+payment-service-1    | 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+payment-service-1    | 	Database driver: undefined/unknown
+payment-service-1    | 	Database version: 2.3.232
+payment-service-1    | 	Autocommit mode: undefined/unknown
+payment-service-1    | 	Isolation level: undefined/unknown
+payment-service-1    | 	Minimum pool size: undefined/unknown
+payment-service-1    | 	Maximum pool size: undefined/unknown
+payment-service-1    | 2026-04-25T20:25:12.821Z  INFO 1 --- [payment-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+payment-service-1    | 2026-04-25T20:25:12.898Z  INFO 1 --- [payment-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+payment-service-1    | 2026-04-25T20:25:14.999Z  INFO 1 --- [payment-service] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:payment-service-db'
+payment-service-1    | 2026-04-25T20:25:15.054Z  INFO 1 --- [payment-service] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+payment-service-1    | 2026-04-25T20:25:15.372Z  INFO 1 --- [payment-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/'
+payment-service-1    | 2026-04-25T20:25:15.439Z  INFO 1 --- [payment-service] [           main] c.t.m.payment.PaymentServiceApplication  : Started PaymentServiceApplication in 13.324 seconds (process running for 14.337)
+payment-service-1    | 2026-04-25T20:25:19.296Z  INFO 1 --- [payment-service] [nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+payment-service-1    | 2026-04-25T20:25:19.297Z  INFO 1 --- [payment-service] [nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+payment-service-1    | 2026-04-25T20:25:19.298Z  INFO 1 --- [payment-service] [nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
