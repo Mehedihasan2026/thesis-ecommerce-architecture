@@ -1,0 +1,2 @@
+Scenario,Architecture,FailureType,StartTimestamp,EndTimestamp,MTTRSeconds,Notes
+payment-service-restart,microservices,payment-service outage,,,,Populate via scripts/measure-mttr.sh

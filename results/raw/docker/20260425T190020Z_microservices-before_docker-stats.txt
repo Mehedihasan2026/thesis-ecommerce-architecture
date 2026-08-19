@@ -1,0 +1,7 @@
+CONTAINER ID   NAME                                      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+977d200bb787   microservices-order-service-1             0.34%     319.5MiB / 11.54GiB   2.70%     4.59kB / 3.84kB   3.15MB / 32.8kB   52
+081da65dfcbb   microservices-cart-service-1              0.18%     333.9MiB / 11.54GiB   2.83%     4.63kB / 3.84kB   213kB / 32.8kB    50
+2ca5ef9e7891   microservices-inventory-service-1         0.36%     388.9MiB / 11.54GiB   3.29%     4.75kB / 3.84kB   12.7MB / 32.8kB   49
+3c61c50a4eb0   microservices-catalog-service-1           0.20%     321.8MiB / 11.54GiB   2.72%     5.35kB / 4.33kB   5.65MB / 32.8kB   48
+7c6b18c6763e   microservices-payment-service-1           0.18%     301.8MiB / 11.54GiB   2.55%     4.71kB / 3.84kB   459kB / 32.8kB    48
+ad0fec0ce109   ecommerce-monolith-ecommerce-monolith-1   0.18%     703.4MiB / 11.54GiB   5.95%     449MB / 1.08GB    91.7MB / 864kB    47

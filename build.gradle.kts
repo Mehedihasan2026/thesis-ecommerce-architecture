@@ -6,7 +6,7 @@ plugins {
 
 group = "mehedi"
 version = "0.0.1-SNAPSHOT"
-description = "thesis-ecommerce-architecture1"
+description = "thesis-ecommerce-architecture"
 
 java {
 	toolchain {

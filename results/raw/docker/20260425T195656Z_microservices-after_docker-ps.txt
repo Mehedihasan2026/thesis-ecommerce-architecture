@@ -1,0 +1,7 @@
+NAMES                                     STATUS          PORTS
+microservices-order-service-1             Up 6 minutes    0.0.0.0:8089->8089/tcp, [::]:8089->8089/tcp
+microservices-cart-service-1              Up 6 minutes    0.0.0.0:8086->8086/tcp, [::]:8086->8086/tcp
+microservices-inventory-service-1         Up 6 minutes    0.0.0.0:8087->8087/tcp, [::]:8087->8087/tcp
+microservices-catalog-service-1           Up 6 minutes    0.0.0.0:8085->8085/tcp, [::]:8085->8085/tcp
+microservices-payment-service-1           Up 6 minutes    0.0.0.0:8088->8088/tcp, [::]:8088->8088/tcp
+ecommerce-monolith-ecommerce-monolith-1   Up 17 minutes   0.0.0.0:8083->8083/tcp, [::]:8083->8083/tcp

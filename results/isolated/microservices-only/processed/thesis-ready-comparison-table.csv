@@ -1,0 +1,8 @@
+Test ID,Test Category,Test Name,Monolith Avg Response Time ms,Microservices Avg Response Time ms,Monolith P95 ms,Microservices P95 ms,Monolith P99 ms,Microservices P99 ms,Monolith Throughput req/s,Microservices Throughput req/s,Monolith Error Rate %,Microservices Error Rate %,Better Architecture Based on KPI,Interpretation Notes
+TC-01,Baseline,Catalog Baseline,,1.75,,2.80,,5.24,,5391.35,,0.00,Insufficient data,At least one KPI is missing for this comparison.
+TC-02,Baseline,Checkout Baseline,,7.26,,21.78,,44.26,,671.28,,0.00,Insufficient data,At least one KPI is missing for this comparison.
+TC-03,Load,Catalog Load,,4.35,,7.17,,9.79,,11242.60,,0.00,Insufficient data,At least one KPI is missing for this comparison.
+TC-04,Load,Checkout Load,,12.31,,34.51,,44.68,,1598.56,,0.00,Insufficient data,At least one KPI is missing for this comparison.
+TC-05,Failure,Payment Failure Simulation,,5.75,,13.48,,22.93,,802.74,,33.33,Insufficient data,At least one KPI is missing for this comparison.
+TC-06,Failure,Inventory Failure Simulation,,3.60,,6.86,,8.27,,1328.28,,33.33,Insufficient data,At least one KPI is missing for this comparison.
+TC-07,Failure,Payment Delay Simulation,,338.71,,1011.80,,1013.80,,14.75,,0.00,Insufficient data,At least one KPI is missing for this comparison.

@@ -1,0 +1,4 @@
+2026-04-25T18:52:57Z k6 thresholds failed for monolith TC-02-checkout-baseline
+2026-04-25T18:54:58Z k6 thresholds failed for monolith TC-04-checkout-load
+2026-04-25T18:55:28Z k6 thresholds failed for monolith TC-05-payment-failure
+2026-04-25T18:56:29Z k6 thresholds failed for monolith TC-07-payment-delay

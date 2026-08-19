@@ -1,0 +1,2 @@
+CONTAINER ID   NAME                                      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+68f1dcc6bf39   ecommerce-monolith-ecommerce-monolith-1   0.34%     2.086GiB / 11.54GiB   18.08%    945MB / 2.38GB   19.8MB / 1.1MB   97

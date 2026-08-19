@@ -1,0 +1,3 @@
+Architecture,Total Monthly Cost,Average Throughput req/s,Estimated Monthly Requests,Cost Per Request,Notes
+Monolith,1731.50,3394.81,8799347520,0.0000001968,
+Microservices,2376.00,3007.08,7794351360,0.0000003048,

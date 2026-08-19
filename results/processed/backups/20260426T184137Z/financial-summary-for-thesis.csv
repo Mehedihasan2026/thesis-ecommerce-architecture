@@ -1,0 +1,8 @@
+Metric,Value,Interpretation
+Total monthly monolith cost,1731.50,Financial model is estimate-based and should be interpreted as relative comparison rather than actual production invoice.
+Total monthly microservices cost,2376.00,Financial model is estimate-based and should be interpreted as relative comparison rather than actual production invoice.
+Infrastructure cost comparison,Monolith,Monolith has lower estimated total monthly cost due to lower infrastructure and operational overhead.
+Labor cost comparison,Monolith,Monolith has lower estimated total monthly cost due to lower infrastructure and operational overhead.
+Downtime cost comparison,Microservices,Microservices has lower estimated downtime cost if failures affect a smaller part of the system.
+Cost per request,"Monolith=0.0000001968, Microservices=0.0000003048",Financial model is estimate-based and should be interpreted as relative comparison rather than actual production invoice.
+Cost per checkout,"Monolith=0.0000001756, Microservices=0.0000008077",Financial model is estimate-based and should be interpreted as relative comparison rather than actual production invoice.

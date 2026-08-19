@@ -1,0 +1,47 @@
+services:
+  catalog-service:
+    build:
+      context: .
+      dockerfile: catalog-service/Dockerfile
+    ports:
+      - "8085:8085"
+
+  cart-service:
+    build:
+      context: .
+      dockerfile: cart-service/Dockerfile
+    ports:
+      - "8086:8086"
+    depends_on:
+      - catalog-service
+    environment:
+      SERVICES_CATALOG_BASE_URL: http://catalog-service:8085
+
+  inventory-service:
+    build:
+      context: .
+      dockerfile: inventory-service/Dockerfile
+    ports:
+      - "8087:8087"
+
+  payment-service:
+    build:
+      context: .
+      dockerfile: payment-service/Dockerfile
+    ports:
+      - "8088:8088"
+
+  order-service:
+    build:
+      context: .
+      dockerfile: order-service/Dockerfile
+    ports:
+      - "8089:8089"
+    depends_on:
+      - cart-service
+      - inventory-service
+      - payment-service
+    environment:
+      SERVICES_CART_BASE_URL: http://cart-service:8086
+      SERVICES_INVENTORY_BASE_URL: http://inventory-service:8087
+      SERVICES_PAYMENT_BASE_URL: http://payment-service:8088

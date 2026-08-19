@@ -1,0 +1,15 @@
+Test ID,Architecture,Test Name,Scenario Type,Requests Sent,Failed Requests,Successful Requests,Avg Response Time ms,P95 Latency ms,P99 Latency ms,Throughput req/s,Error Rate %,Notes
+TC-01,Monolith,Catalog Baseline,Baseline,,,,,,,,,TODO no k6 summary file found
+TC-01,Microservices,Catalog Baseline,Baseline,323489,0,323489,1.75,2.80,5.24,5391.35,0.00,
+TC-02,Monolith,Checkout Baseline,Baseline,,,,,,,,,TODO no k6 summary file found
+TC-02,Microservices,Checkout Baseline,Baseline,40284,0,40284,7.26,21.78,44.26,671.28,0.00,
+TC-03,Monolith,Catalog Load,Load,,,,,,,,,TODO no k6 summary file found
+TC-03,Microservices,Catalog Load,Load,674611,0,674611,4.35,7.17,9.79,11242.60,0.00,
+TC-04,Monolith,Checkout Load,Load,,,,,,,,,TODO no k6 summary file found
+TC-04,Microservices,Checkout Load,Load,95949,0,95949,12.31,34.51,44.68,1598.56,0.00,
+TC-05,Monolith,Payment Failure Simulation,Failure,,,,,,,,,TODO no k6 summary file found
+TC-05,Microservices,Payment Failure Simulation,Failure,24090,8030,16060,5.75,13.48,22.93,802.74,33.33,
+TC-06,Monolith,Inventory Failure Simulation,Failure,,,,,,,,,TODO no k6 summary file found
+TC-06,Microservices,Inventory Failure Simulation,Failure,39858,13286,26572,3.60,6.86,8.27,1328.28,33.33,
+TC-07,Monolith,Payment Delay Simulation,Failure,,,,,,,,,TODO no k6 summary file found
+TC-07,Microservices,Payment Delay Simulation,Failure,450,0,450,338.71,1011.80,1013.80,14.75,0.00,

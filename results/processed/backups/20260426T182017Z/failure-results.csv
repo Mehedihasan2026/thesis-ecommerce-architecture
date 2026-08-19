@@ -1,0 +1,3 @@
+Scenario,Architecture,FailureType,StartTimestamp,EndTimestamp,MTTRSeconds,Notes
+payment-service-restart,microservices,payment-service outage,2026-04-25T19:57:43Z,2026-04-25T19:57:58Z,15,Recovered after docker compose start and successful checkout
+payment-service-restart,microservices,payment-service outage,2026-04-25T20:34:36Z,2026-04-25T20:34:51Z,15,Recovered after docker compose start and successful checkout

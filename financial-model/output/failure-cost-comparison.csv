@@ -1,0 +1,3 @@
+Architecture,Incidents Per Month,Average MTTR Minutes,Revenue Per Hour,Percentage Users Affected,Estimated Downtime Cost Per Month,Notes
+Monolith,2.00,20.00,500.00,1.00,333.33,Assumption-driven monthly downtime estimate
+Microservices,3.00,12.00,500.00,0.40,120.00,Assumption-driven monthly downtime estimate

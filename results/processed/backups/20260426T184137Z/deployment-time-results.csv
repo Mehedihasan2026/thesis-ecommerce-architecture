@@ -1,0 +1,6 @@
+Scenario,Architecture,Command Measured,Deployment Time Seconds,Components Affected,Services Redeployed,Notes
+Full monolith Gradle build,Monolith,"cd monolith/ecommerce-monolith && ./gradlew bootJar",0,Whole monolith application,1 whole application,"Measured with wall-clock timestamps"
+Full monolith Docker build,Monolith,"cd monolith/ecommerce-monolith && docker build -t thesis-monolith-timing .",164,Whole monolith application image,1 whole application,"Measured with wall-clock timestamps"
+Full microservices Docker Compose build,Microservices,"cd microservices && docker compose build",9,All services,5 services,"Measured with wall-clock timestamps"
+Payment-service-only microservices rebuild/restart,Microservices,"cd microservices && docker compose build payment-service && docker compose up -d payment-service",7,payment-service,1 service,"Measured with wall-clock timestamps"
+Full microservices docker compose up -d --build,Microservices,"cd microservices && docker compose up -d --build",12,All services,5 services,"Measured with wall-clock timestamps"

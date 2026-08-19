@@ -1,0 +1,7 @@
+Cost Category,Monolith Cost,Microservices Cost,Difference,Lower Cost Architecture,Notes
+Infrastructure Monthly Cost,81.50,268.50,187.00,Monolith,
+Labor Monthly Cost,1316.67,1987.50,670.83,Monolith,
+Downtime Monthly Cost,333.33,120.00,-213.33,Microservices,
+Total Estimated Monthly Cost,1731.50,2376.00,644.50,Monolith,
+Cost Per Request,0.00,0.00,0.00,Monolith,
+Cost Per Successful Checkout,0.00,0.00,0.00,Monolith,
